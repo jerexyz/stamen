@@ -859,6 +859,16 @@
   resolved "https://registry.npmjs.org/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
+"@jerexyz/stamen@^1.6.0":
+  version "1.9.1"
+  resolved "https://registry.npmjs.org/@jerexyz/stamen/-/stamen-1.9.1.tgz#a83c288b3fed80f51b7be492cc960a8d6efcf440"
+  integrity sha512-QnG86ft6f65P7KAo8u/2sMskVBvqoVA01oieQ2qfl5i36+Nyv2wWEu1+297hJZZcUNlta26bJhQjYA/b7A0zIw==
+  dependencies:
+    cross-fetch "^3.0.1"
+    fast-deep-equal "^2.0.1"
+    gery "^1.1.3"
+    immer "^2.1.4"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.npmjs.org/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -4717,10 +4727,10 @@ immer@1.10.0:
   resolved "https://registry.npmjs.org/immer/-/immer-1.10.0.tgz#bad67605ba9c810275d91e1c2a47d4582e98286d"
   integrity sha512-O3sR1/opvCDGLEVcvrGTMtLac8GJ5IwZC4puPrLuRj3l7ICKvkmA0vGuU9OW8mV9WIBRnaxp5GJh9IEAaNOoYg==
 
-immer@^2.1.0:
-  version "2.1.3"
-  resolved "https://registry.npmjs.org/immer/-/immer-2.1.3.tgz#56e2eeffc4eff5d15111a878041177cadcfc6f75"
-  integrity sha512-rlXI8sYY22/ykqFodL37W1/syMhYDVVEsui5HWrQezgmavV6f8oDbN2fKBH6XZkjH5qz9hapbpmgDPYOufJsfg==
+immer@^2.1.4:
+  version "2.1.4"
+  resolved "https://registry.npmjs.org/immer/-/immer-2.1.4.tgz#92545e07c2c28b94afe0752364a35f5693b6ffaa"
+  integrity sha512-6UPbG/DIXFSWp10oJJaCPl5/lp5GhGEscDH0QGYKc5EMT5PLZ9+L8hhyc44zRHksI7CQXJp8r6nlDR3n09X6SA==
 
 import-cwd@^2.0.0:
   version "2.1.0"
@@ -9087,16 +9097,6 @@ stacktrace-js@^2.0.0:
     error-stack-parser "^2.0.1"
     stack-generator "^2.0.1"
     stacktrace-gps "^3.0.1"
-
-stamen@^1.6.0:
-  version "1.9.0"
-  resolved "https://registry.npmjs.org/stamen/-/stamen-1.9.0.tgz#915183283a761e5ffc9b82e45d080639666e00e7"
-  integrity sha512-Mel3eOKPtGyOeCy0zhojd2mvA+t9hlFuNFKPT8NZRjj3pppGnWS9bEvjvDRclXDbHWstm0u2zrBD0QY1xO9UnA==
-  dependencies:
-    cross-fetch "^3.0.1"
-    fast-deep-equal "^2.0.1"
-    gery "^1.1.3"
-    immer "^2.1.0"
 
 static-extend@^0.1.1:
   version "0.1.2"

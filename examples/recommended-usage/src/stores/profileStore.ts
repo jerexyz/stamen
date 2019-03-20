@@ -1,4 +1,4 @@
-import { createStore } from 'stamen'
+import { createStore } from '@jerexyz/stamen'
 
 export const { useStore, dispatch } = createStore({
   state: {

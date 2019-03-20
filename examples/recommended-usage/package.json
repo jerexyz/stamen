@@ -8,7 +8,7 @@
     "react-dom": "16.7.0-alpha.0",
     "react-scripts": "^2.1.8",
     "react-use": "^4.9.0",
-    "stamen": "^1.6.0",
+    "@jerexyz/stamen": "^1.6.0",
     "typescript": "^3.3.3333"
   },
   "scripts": {

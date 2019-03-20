@@ -1,4 +1,4 @@
-import { createStore } from 'stamen'
+import { createStore } from '@jerexyz/stamen'
 
 interface Post {
   id: number
